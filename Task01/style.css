@@ -1,0 +1,22 @@
+@charset "utf-8";
+body {
+    font-family: sans-serif;
+}
+
+a: hover img {
+    opacity: 0.5;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.float-box {
+    float: left;
+}
+
+.float-clear {
+    overflow: hidden;
+}
