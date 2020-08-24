@@ -1,13 +1,45 @@
 @charset "utf-8";
 body {
     font-family: sans-serif;
+    line-height: 1.7;
 }
 
-a: hover img {
-    opacity: 0.5;
+p {
+    margin: 0;
 }
 
-.img-responsive {
+h1 {
+    font-weight: bold;
+    text-align: center;
+    color: red;
+}
+
+h2 {
+    color: green;
+}
+
+strong {
+    color: blue;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #8fbac8;
+    padding: 8px;
+}
+
+a:hover {
+    color: #b7dbf2; 
+}
+
+a:active {
+    color: #4ca4e8;
+}
+
+img {
     display: block;
     max-width: 100%;
     height: auto;
@@ -15,8 +47,33 @@ a: hover img {
 
 .float-box {
     float: left;
+    margin-right: 3em;
+    margin-bottom: 0.5em;
+    vertical-align: baseline;
 }
 
 .float-clear {
     overflow: hidden;
+}
+
+.item {
+    float: left;
+    margin: 8px 0 8px 8px;
+    border: 5px solid rgb(34, 94, 114);
+    border-radius: 10px;
+    width: 550px;
+    padding: 8px;
+    background-color: lightblue;
+}
+
+.item p {
+    font-size: 14px;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
 }
