@@ -1,0 +1,21 @@
+sudo apt update
+sudo apt upgrade
+reboot
+sudo apt install vagrant virtualbox
+
+今理解するべき
+chapter4,5,7　基本的なこと
+chapter9 サイバーセキュリティの人は大事
+chapter11,12,13 超重要　Linuxに慣れてからやるとよい
+chapter18 簡単だから覚えよう
+chapter19 絶対に大事
+
+後々に大事
+chapter3
+chapter6 標準入力を理解してから。
+chapter8 そこそこ大事
+chapter10 ジョブなどは早めに理解
+chapter14 正規表現を理解しないとわからない　awkはpythonが代わりになったので使わなくなった
+chapter15,16,17　書けなくてもいいが読めるようになったほうがいい
+Linux = UNIXは容量が大きいのでパソコンでもできるように小さくしたものがLinux
+
